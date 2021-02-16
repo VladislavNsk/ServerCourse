@@ -21,7 +21,9 @@ namespace Json
             var totalPopulation = countries.Sum(c => c.Population);
             Console.WriteLine($"Общая численность населения: {totalPopulation}");
 
-            var currencies = countries.ToDictionary(c => c.Name, c => c.Currencies[0].Name).ToList();
+            var currencies = countries
+                .ToDictionary(c => c.Name, c => c.Currencies[0].Name)
+                .ToList();
 
             foreach (var (country, currency) in currencies)
             {
