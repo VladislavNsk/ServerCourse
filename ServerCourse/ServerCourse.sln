@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excel", "Excel\Excel.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Json", "Json\Json.csproj", "{2986B911-AFA4-4F0F-82B1-4F33319B6C04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VectorTest", "VectorTest\VectorTest.csproj", "{FE0DB018-9532-4FBB-900C-72BF62B22804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2986B911-AFA4-4F0F-82B1-4F33319B6C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2986B911-AFA4-4F0F-82B1-4F33319B6C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2986B911-AFA4-4F0F-82B1-4F33319B6C04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0DB018-9532-4FBB-900C-72BF62B22804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0DB018-9532-4FBB-900C-72BF62B22804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0DB018-9532-4FBB-900C-72BF62B22804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0DB018-9532-4FBB-900C-72BF62B22804}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
