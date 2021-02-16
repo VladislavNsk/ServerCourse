@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Excel", "ServerCourse\Excel.csproj", "{D22388F3-13B5-4999-A190-00512419E4A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Json", "Json\Json.csproj", "{2986B911-AFA4-4F0F-82B1-4F33319B6C04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D22388F3-13B5-4999-A190-00512419E4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22388F3-13B5-4999-A190-00512419E4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22388F3-13B5-4999-A190-00512419E4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22388F3-13B5-4999-A190-00512419E4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2986B911-AFA4-4F0F-82B1-4F33319B6C04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2986B911-AFA4-4F0F-82B1-4F33319B6C04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2986B911-AFA4-4F0F-82B1-4F33319B6C04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2986B911-AFA4-4F0F-82B1-4F33319B6C04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEDB38AD-52DA-4FE0-9075-6328C4DAFE31}
+	EndGlobalSection
+EndGlobal
