@@ -12,6 +12,7 @@ namespace AdoNet
         {
             var connectionString = "Data Source=.;Initial Catalog=Shop;Integrated Security=true;";
 
+            PrintProductsCount(connectionString);
             InsertProduct(connectionString);
             InsertCategory(connectionString);
             UpdateProduct(connectionString, 1025m, 3);
@@ -68,7 +69,7 @@ namespace AdoNet
                 var price = Convert.ToDecimal(Console.ReadLine());
 
                 Console.WriteLine("Введите категорию нового продукта");
-                Console.Write($"Имеющиеся категории: ");
+                Console.Write("Имеющиеся категории: ");
 
                 foreach (var name in categoriesNames)
                 {
@@ -81,7 +82,7 @@ namespace AdoNet
                                   "VALUES(@productName, @price, @categoryId)";
 
                 using var command2 = new SqlCommand(query, connection);
-                command2.Parameters.AddRange(new SqlParameter[]
+                command2.Parameters.AddRange(new[]
                 {
                 new SqlParameter("@productName", productName)
                 {
@@ -118,7 +119,7 @@ namespace AdoNet
                 connection.Open();
 
                 var query = "INSERT INTO [dbo].[Categories] (Name) " +
-                            $"VALUES(@categoryName)";
+                            "VALUES(@categoryName)";
                 using var command = new SqlCommand(query, connection);
                 command.Parameters.Add(new SqlParameter("@categoryName", categoryName)
                 {
