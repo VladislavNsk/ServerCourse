@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VectorTest", "VectorTest\Ve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLog", "SimpleLog\SimpleLog.csproj", "{B0252C5C-F55C-47DD-9F39-26C8C7A434E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet", "AdoNet\AdoNet.csproj", "{0747C747-DD33-485B-BF69-76C369FEAB02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdoNet", "AdoNet\AdoNet.csproj", "{0747C747-DD33-485B-BF69-76C369FEAB02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transaction", "Transaction\Transaction.csproj", "{AA182EDC-ECDE-4833-A4FD-F6879694028A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{0747C747-DD33-485B-BF69-76C369FEAB02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0747C747-DD33-485B-BF69-76C369FEAB02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0747C747-DD33-485B-BF69-76C369FEAB02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA182EDC-ECDE-4833-A4FD-F6879694028A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA182EDC-ECDE-4833-A4FD-F6879694028A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA182EDC-ECDE-4833-A4FD-F6879694028A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA182EDC-ECDE-4833-A4FD-F6879694028A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
